@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/hatter.jpg);
+}
+
+header{
+    background-image: url(img/fejlec.jpg);
+    
+}
+
+/* .main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+}
+
+img{
+    width: 150px;
+} */
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+img{
+    width: 150px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    width: 100%;
+    gap: 0 20px;
+}
+
+.links div{
+    background-color: lightskyblue;
+    border-radius: 6px;
+    margin: 2px;
+    padding: 10px;
+    text-align: center;
+    width: 160px;
+
+}
+
+header{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.gallery{
+    display: grid;
+   grid-template-columns: 1fr;
+   gap: 100px;
+   margin: 40px 10px 20px 10px;
+}
+
+/* .gallery div{
+    transform: rotate(7deg);
+} */
+
+
+.footer footer{
+    background-color: blue;
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+}
+.group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:5px;
+}
+
+.text {
+    padding: 20px;
+    border: 2px solid lightgrey;
+
+}
+
+.text h4, p{
+    padding: 4px;
+}
+
+.text p{
+    text-align: justify;
+}
+
+.text a{
+    display: block;
+    margin-top: 20px;
+}
+
+.group div{
+    width: 180px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.left{
+    float: left;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+}
+
+.right{
+    float: left;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);
+}
